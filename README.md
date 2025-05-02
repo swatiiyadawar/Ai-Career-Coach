@@ -2,7 +2,7 @@
 
 SENSAi is a **Full Stack AI-powered Career Coaching platform** designed to help job seekers advance their careers with **personalized guidance**, **AI-driven interview preparation**, **resume enhancement**, and other career growth tools.
 
-![SENSAI Banner](./fe7a0824-0ce1-4e85-889a-f23f1ef8b299.png)
+![image](https://github.com/user-attachments/assets/a1ddd1ac-1940-4ee0-8575-6d9d88107d89)
 
 ## ✨ Key Features
 
@@ -33,10 +33,10 @@ git clone https://github.com/swatiiyadawar/Ai-Career-Coach.git
 cd Ai-Career-Coach
 
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
 npm install
 
-3️⃣ Make sure to create a .env file with following variables -
+### 3️⃣ Make sure to create a .env file with following variables -
 
 DATABASE_URL=
 
