@@ -1,55 +1,76 @@
 # SENSAi — Your AI Career Coach for Professional Success
-
 SENSAi is a **Full Stack AI-powered Career Coaching platform** designed to help job seekers advance their careers with **personalized guidance**, **AI-driven interview preparation**, **resume enhancement**, and other career growth tools.
 
-![image](https://github.com/user-attachments/assets/a1ddd1ac-1940-4ee0-8575-6d9d88107d89)
+![image](https://github.com/user-attachments/assets/5a7aaff6-3f16-4259-a172-dc122ae7430f)
 
-## ✨ Key Features
 
-- ✅ **AI-powered Resume Enhancer** — Optimize resumes to be ATS-friendly with smart suggestions
-- ✅ **Interview Preparation** — Get AI-generated interview questions and model answers
-- ✅ **Career Insights Dashboard** — Track progress and get recommendations
-- ✅ **Integrated Growth Tools** — Custom AI tools for job search, grammar checking, and career tips
-- ✅ **User Authentication** — Secure login and onboarding flow with Clerk  
-- ✅ **Background Tasks Handling** — Using Inngest for smooth task queues and async operations
+✨ Key Features
+✅ AI-Powered Resume Enhancer — Optimize your resume for ATS compatibility with smart suggestions.
 
-## 🛠️ Tech Stack
+✅ Interview Preparation — Receive AI-generated interview questions and model answers tailored to your role.
 
-- **Next.js 14** — App Router (Full-stack React framework)
-- **TailwindCSS** — Modern UI styling
-- **Shadcn/UI** — Beautiful and accessible component library
-- **Neon Database** — Serverless PostgreSQL database
-- **Prisma** — Type-safe database ORM
-- **Inngest** — Background jobs and workflows
-- **Clerk** — Authentication and user management
-- **Gemini AI API** — AI functionalities (powered by Google Gemini)
+✅ Career Insights Dashboard — Track your career progress and get actionable recommendations.
 
-## 🚀 Getting Started
+✅ Integrated Growth Tools — Access custom AI tools for job searching, grammar checking, and career advice.
 
-### 1️⃣ Clone the repository
+✅ Secure User Authentication — Manage login and onboarding seamlessly with Clerk.
 
-```bash
+✅ Background Task Handling — Efficiently handle background tasks using Inngest for smooth asynchronous operations.
+
+🛠️ Tech Stack
+Next.js 14 — A full-stack React framework with the App Router for modern web development.
+
+TailwindCSS — For responsive and modern UI design.
+
+Shadcn/UI — A beautiful and accessible component library to enhance user experience.
+
+Neon Database — A serverless PostgreSQL database for reliable storage.
+
+Prisma — Type-safe database ORM for easier data management.
+
+Inngest — For handling background jobs and workflows.
+
+Clerk — A comprehensive solution for user authentication and management.
+
+Gemini AI API — Powers the AI functionalities (provided by Google Gemini).
+
+🚀 Getting Started
+To get started with the SENSAi platform locally, follow these steps:
+
+1️⃣ Clone the Repository
+bash
+Copy
+Edit
 git clone https://github.com/swatiiyadawar/Ai-Career-Coach.git
 cd Ai-Career-Coach
+2️⃣ Install Dependencies
+Run the following command to install the required dependencies:
 
-
-### 2️⃣ Install dependencies
+bash
+Copy
+Edit
 npm install
+3️⃣ Set Up Environment Variables
+Create a .env file in the root directory and add the following variables:
 
-### 3️⃣ Make sure to create a .env file with following variables -
+env
+Copy
+Edit
+DATABASE_URL=<your-database-url>
 
-DATABASE_URL=
-
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your-clerk-publishable-key>
+CLERK_SECRET_KEY=<your-clerk-secret-key>
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
-GEMINI_API_KEY=
+GEMINI_API_KEY=<your-gemini-api-key>
+4️⃣ Run the Development Server
+After setting up the environment variables, run the development server using the following command:
 
-4️⃣ Run the development server
+bash
+Copy
+Edit
 npm run dev
- 
